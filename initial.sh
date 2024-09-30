@@ -88,6 +88,3 @@ printf "${YELLOW}change git default editor to vscode${NC}\n";
 sleep $delay_after_message;
 git config --global core.editor "code --wait"
 sleep 2;
-printf "${YELLOW}Reboot${NC}\n";
-sleep $delay_after_message;
-sudo reboot
